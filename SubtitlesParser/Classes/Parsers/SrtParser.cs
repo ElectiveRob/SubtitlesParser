@@ -29,7 +29,7 @@ namespace SubtitlesParser.Classes.Parsers
 
         // Constructors --------------------------------------------------------------------
 
-        public SrtParser(){}
+        //public SrtParser(){}
 
 
         // Methods -------------------------------------------------------------------------

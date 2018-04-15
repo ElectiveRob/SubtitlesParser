@@ -58,7 +58,7 @@ namespace Test
         {
             const string subFilesDirectory = @"Content\TestFiles";
             var currentPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-            var completePath = Path.Combine(currentPath, "..", "..", subFilesDirectory);
+            var completePath = Path.Combine(currentPath, subFilesDirectory);
 
             var allFiles = Directory.GetFiles(completePath);
             return allFiles;
